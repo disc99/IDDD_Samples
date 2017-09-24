@@ -28,6 +28,7 @@ public class NotificationApplicationService {
     }
 
     public void publishNotifications() {
+        // NotificationのpublishをsubscribeしないようにisListeningをfalseにする
         ApplicationServiceLifeCycle.begin(false);
 
         try {
