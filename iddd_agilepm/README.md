@@ -1,5 +1,6 @@
 # iddd_agilepm
 
+- 基本設計はヘキサゴナルアーキテクチャ + CQRS(State Sourcing)
 - SpringなどのDIコンテナは未使用
 - LevelDBをデータソースに使用
   - 自作のORM(Unit of Work)

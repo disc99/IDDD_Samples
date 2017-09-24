@@ -36,6 +36,10 @@ public class FollowStoreEventDispatcher implements EventDispatcher, EventNotifia
     private long lastDispatchedEventId;
     private List<EventDispatcher> registeredDispatchers;
 
+    /**
+     * SpringによってDIされる。
+     * @param aDataSource
+     */
     public FollowStoreEventDispatcher(DataSource aDataSource) {
         super();
 
